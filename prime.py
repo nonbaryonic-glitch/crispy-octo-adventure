@@ -37,6 +37,7 @@ def nth_prime(n: int) -> int:
     return candidate
 
 def main():
+    """Compute and print the 10th prime number."""
     tenth = nth_prime(10)
     print(tenth)
 
